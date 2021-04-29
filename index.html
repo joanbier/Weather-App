@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="background-wrapper">
+            <div class="bcg-cover">
+                <header>
+                    <span class="time-now"></span>
+                    <form class="search-form">
+                        <input class="search-input" name="city-name" type="text" placeholder="Enter City..." value="">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </form>
+                    <section class="city-buttons">
+                        <button name="city-btn" value="Warsaw">Warsaw</button>
+                        <button name="city-btn" value="Berlin">Berlin</button>
+                        <button name="city-btn" value="Los Angeles">Los Angeles</button>
+                        <button name="city-btn" value="Tokyo">Tokyo</button>
+                        <button name="city-btn" value="Nairobi">Nairobi</button>
+                    </section>
+                </header>
+                <section class="main-info"></section>
+                <hr>
+                <h3 class="title-WF">Hourly Weather Forecast</h3>
+                <section class="hourly-WF">
+                    <div class="hours"></div>
+                    <div class="icons"></div>
+                    <div class="temperature"></div>
+                </section>
+            </div>
+        </div>
+        <hr>
+        <h3 class="title-WF">Daily Weather Forecast</h3>
+        <section class="daily-WF">
+            <div class="weekday"></div>
+            <div class="icons-daily"></div>
+            <div class="temp-daily"></div>
+            <div class="temp-daily-night"></div>
+        </section>
+        <hr>
+        <h3 class="title-WF">Today's Details</h3>
+        <section class="details">
+        </section>
+        <footer>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
