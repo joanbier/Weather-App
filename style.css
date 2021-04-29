@@ -56,12 +56,14 @@ hr {
     border: none;
     background-color: rgba(255, 255, 255, 0.507);
     margin: 0;
+    border-radius: 0;
 }
 
 .search-input {
     width: 80%;
     padding: 10px;
     border: 2px solid transparent;
+
 }
 
 .search-input:focus {
