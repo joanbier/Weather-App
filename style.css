@@ -38,12 +38,13 @@ hr {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 30px;
 }
 
 .bcg-cover {
     background-color: rgba(0, 0, 0, 0.356);
     padding: 15px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .search-form {
@@ -60,9 +61,6 @@ hr {
 .search-input {
     width: 80%;
     padding: 10px;
-    border-radius: 20px;
-    border-start-end-radius: 0;
-    border-bottom-right-radius: 0;
     border: 2px solid transparent;
 }
 
@@ -72,10 +70,7 @@ hr {
 }
 
 .search-btn {
-    width: 39px;
-    height: 39px;
-    border-start-end-radius: 50%;
-    border-bottom-right-radius: 50%;
+    padding: 10px;
     color: rgb(26, 21, 21);
     cursor: pointer;
     transition: .2s;
@@ -97,10 +92,12 @@ hr {
     padding: 10px 20px;
     background-color: rgba(255, 255, 255, 0.507);
     margin: 5px;
+    font-size: 16px;
 }
 
 .main-info .city {
     font-size: 45px;
+    text-transform: capitalize;
 }
 
 .main-info .time-zone {
