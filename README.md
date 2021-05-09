@@ -1,4 +1,4 @@
-# Wheater-App
+# Weather-App
 
 https://joanbier.github.io/Wheater-App/
 
